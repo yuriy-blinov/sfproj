@@ -2,7 +2,7 @@ global class BatchableClass1 implements Database.Batchable<SObject> {
     
     global BatchableClass1() {
         Map<Id,
-        List<Id>> TestVar;
+        List<Id>>  testVar;
     }
 
 
