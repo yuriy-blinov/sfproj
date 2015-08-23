@@ -1,1 +1,1 @@
-trigger Trigger3 on Attachment (before delete)  { }
+trigger trigger3 on Attachment (before delete)  { }
