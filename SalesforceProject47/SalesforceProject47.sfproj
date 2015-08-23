@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50b605ab-38b9-4ff3-95f9-9fd6107f1485}</ProjectGuid>
+    <Login>vss.partner.developer@softheme.com</Login>
+    <Password>YBF5fe5DubcYeScGavoae+QfJeDOSKQeqfjFR7OP+Y3P/k0Ks+mUvl06CQ9cuGDOTNuchfI+S9I=</Password>
+    <SecurityToken>WVgVXbUT6unLO2BGCfMNirsgndz4Sa9o5B8l4M5IpB6p+MVHs4/5jc/+TQqz6ZS+XToJD1y4YM5M25yF8j5L0g==</SecurityToken>
+    <Domain />
+    <Environment>0</Environment>
+    <ApexVersion>29.0</ApexVersion>
+    <Name>SalesforceProject47</Name>
+    <AssemblyName>SalesforceProject47</AssemblyName>
+    <RootNamespace>SalesforceProject47</RootNamespace>
+    <ProjectVersion>1</ProjectVersion>
+    <PackageVersion>0.18.5.4</PackageVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Folder Include="AnonymousApex" />
+    <Folder Include="Classes" />
+    <Folder Include="Soql" />
+    <Folder Include="StaticResources" />
+    <Folder Include="StaticResources\ic\" />
+    <Folder Include="StaticResources\SiteSamples\" />
+    <Folder Include="StaticResources\TestStatic1\" />
+    <Folder Include="StaticResources\ZipWithOneFileInside\" />
+    <Folder Include="Triggers" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BatchableClass1.cls">
+      <SubType>Class</SubType>
+      <Id>01p20000004VtrWAAS</Id>
+      <LastModefiedDateUtcTicks>130847890800000000</LastModefiedDateUtcTicks>
+      <Hash>lq2F8hTpZhVXOH3xKiNJTQ==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Class39.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007SWzAAM</Id>
+      <LastModefiedDateUtcTicks>130844584950000000</LastModefiedDateUtcTicks>
+      <Hash>4OHI3YaUIRgwTZBuuD9qLQ==</Hash>
+    </Compile>
+    <Compile Include="Triggers\TestTrigger2.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007MljAAE</Id>
+      <LastModefiedDateUtcTicks>130844670270000000</LastModefiedDateUtcTicks>
+      <Hash>cZdboQKu6ays+gFgdFOK7w==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger1.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007OaPAAU</Id>
+      <LastModefiedDateUtcTicks>130779750230000000</LastModefiedDateUtcTicks>
+      <Hash>KQ8JNzjWQV8gZsbctb/ngw==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger1s.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007HlhAAE</Id>
+      <LastModefiedDateUtcTicks>130783309970000000</LastModefiedDateUtcTicks>
+      <Hash>JJSpgT1ir7xrzUYuXt6zfg==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger2.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007R5rAAE</Id>
+      <LastModefiedDateUtcTicks>130794357050000000</LastModefiedDateUtcTicks>
+      <Hash>LGfYm1EF5WCg8gtyLy3k4w==</Hash>
+    </Compile>
+    <Compile Include="Triggers\Trigger3.trigger">
+      <SubType>Trigger</SubType>
+      <Id>01q200000007R5wAAE</Id>
+      <LastModefiedDateUtcTicks>130794370840000000</LastModefiedDateUtcTicks>
+      <Hash>TcBUBvQFyiQ4HYumpwiXLw==</Hash>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZip Include="StaticResources\ic">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qoQAAQ</Id>
+      <LastModefiedDateUtcTicks>130844670290000000</LastModefiedDateUtcTicks>
+      <Hash>ED3V+kImXxTg9ZLzkJ+0wg==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\SiteSamples">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000nyCAAQ</Id>
+      <LastModefiedDateUtcTicks>130844584970000000</LastModefiedDateUtcTicks>
+      <Hash>S3hkNdUOcNqblkZSqV/kEw==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\TestStatic1">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qdwAAA</Id>
+      <LastModefiedDateUtcTicks>130818724580000000</LastModefiedDateUtcTicks>
+      <Hash>WOQ69KoOHHfzkVNjZzhViQ==</Hash>
+    </StaticZip>
+    <StaticZip Include="StaticResources\ZipWithOneFileInside">
+      <SubType>StaticResourceZip</SubType>
+      <Id>081200000000qwyAAA</Id>
+      <LastModefiedDateUtcTicks>130843838820000000</LastModefiedDateUtcTicks>
+      <Hash>OjMCZkTClD+bfQIoOVfbMg==</Hash>
+    </StaticZip>
+  </ItemGroup>
+  <ItemGroup>
+    <StaticZipItem Include="StaticResources\ic\css\css.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\css\css.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\css\newFileToCs.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\css\newFileToCs.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\fonts\fonts.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\fonts\fonts.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\js\js.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\js\js.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ic\js\newFileToJs.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ic</StaticResource>
+      <StaticResourcePath>StaticResources\ic\js\newFileToJs.txt</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\facebook56.svg">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\facebook56.svg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\clock.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\clock.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\construction.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\construction.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\unauthorized.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\unauthorized.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\img\warning.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\img\warning.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\log4net (1).config">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\log4net (1).config</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\log4net.config">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\log4net.config</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\SiteSamples\SiteStyles.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>SiteSamples</StaticResource>
+      <StaticResourcePath>StaticResources\SiteSamples\SiteStyles.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\ChatData.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\ChatData.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\DPIC_Nissan.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\DPIC_Nissan.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_hover.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_hover.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_normal.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_normal.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline_hover.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\btn_livechat_offline_hover.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\DPIC_Nissan_Infiniti_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_close_window.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_close_window.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_end_session.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_end_session.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_header.jpg">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_header.jpg</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_start_chat.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_start_chat.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_submit.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\infiniti_submit.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\leaf_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_DPIC_Resized_Close.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_DPIC_Resized_Close.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Close.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Close.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Submit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgent_Resized_Submit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgen_DPIC_Resized_Submit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\LiveAgen_DPIC_Resized_Submit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg_no_footer.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_bg_no_footer.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg_no_footer.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\livechat_infinity_bg_no_footer.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\load.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\load.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_blank_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_exit.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_exit.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Landscape.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Landscape.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Portrait.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_bg_Mobile_Portrait.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NCV_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewDPIC_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewDPIC_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_bg_cases_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile_cuted.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_Mobile_cuted.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_header_regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewInfiniti_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewLeaf_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewLeaf_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases_Mobile.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_bg_cases_Mobile.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_Mobile_Portrait.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_Mobile_Portrait.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_header_regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_Infiniti_Regular.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_Infiniti_Regular.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_offline.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_offline.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_start_chat.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\NewNissan_start_chat.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_end_session.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_end_session.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_header.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_header.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_start_chat.gif">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\img\nissan_start_chat.gif</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\InfinitiPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\InfinitiPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Infiniti_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Infiniti_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\LeafStyle.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\LeafStyle.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Leaf_Direct_Complete_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Leaf_Direct_Complete_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\LiveAgent_IFS_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\LiveAgent_IFS_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCV.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCV.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCVPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCVPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NCV_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NCV_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfinitiPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfinitiPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewInfiniti_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewLeafDirect_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewLeafDirect_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewLeafPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewLeafPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissanPostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissanPostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_bg.png">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NewNissan_bg.png</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\NissanStyle.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\NissanStyle.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\Nissan_Direct_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\Nissan_Direct_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\TestStatic1\NissanStyle_Mini\PostChat_Adaptive.css">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>TestStatic1</StaticResource>
+      <StaticResourcePath>StaticResources\TestStatic1\NissanStyle_Mini\PostChat_Adaptive.css</StaticResourcePath>
+    </StaticZipItem>
+    <StaticZipItem Include="StaticResources\ZipWithOneFileInside\Windows\Pass.txt">
+      <SubType>StaticResourceZipItem</SubType>
+      <StaticResource>ZipWithOneFileInside</StaticResource>
+      <StaticResourcePath>StaticResources\ZipWithOneFileInside\Windows\Pass.txt</StaticResourcePath>
+    </StaticZipItem>
+  </ItemGroup>
+  <ItemGroup>
+    <Static Include="StaticResources\CssFileBut.xml">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000oNRAAY</Id>
+      <LastModefiedDateUtcTicks>130844711620000000</LastModefiedDateUtcTicks>
+      <Hash>dgY4LUuYPkI70W4EltM82g==</Hash>
+    </Static>
+    <Static Include="StaticResources\empty.resource">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000p9WAAQ</Id>
+      <LastModefiedDateUtcTicks>130777110820000000</LastModefiedDateUtcTicks>
+      <Hash>ikgNtATeJY+aed/CN/M0Pw==</Hash>
+    </Static>
+    <Static Include="StaticResources\Image.png">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000o9tAAA</Id>
+      <LastModefiedDateUtcTicks>130770182130000000</LastModefiedDateUtcTicks>
+      <Hash>c0DJAUd8zQIscWDmg8vupw==</Hash>
+    </Static>
+    <Static Include="StaticResources\ImageFromDesctop.png">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000oA3AAI</Id>
+      <LastModefiedDateUtcTicks>130766004640000000</LastModefiedDateUtcTicks>
+      <Hash>0oHtpEpyBeDjoKch2uNSjA==</Hash>
+    </Static>
+    <Static Include="StaticResources\ZipedFileNotUnziped.resource">
+      <SubType>StaticResource</SubType>
+      <Id>081200000000o9oAAA</Id>
+      <LastModefiedDateUtcTicks>130846382840000000</LastModefiedDateUtcTicks>
+      <Hash>NoLX7OOSM6KmlSdw+P3L6g==</Hash>
+    </Static>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Build.targets" />
+</Project>

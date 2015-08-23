@@ -1,0 +1,1 @@
+trigger Trigger1 on Campaign (before update)  { }//43242342

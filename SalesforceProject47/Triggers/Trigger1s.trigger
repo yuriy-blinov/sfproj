@@ -1,0 +1,1 @@
+trigger Trigger1s on Campaign (before delete)  { Integer i = 1; }
