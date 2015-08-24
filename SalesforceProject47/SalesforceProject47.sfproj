@@ -24,9 +24,16 @@
     <Folder Include="Soql" />
     <Folder Include="StaticResources" />
     <Folder Include="StaticResources\ic\" />
+    <Folder Include="StaticResources\ic\css\" />
+    <Folder Include="StaticResources\ic\fonts\" />
+    <Folder Include="StaticResources\ic\js\" />
     <Folder Include="StaticResources\SiteSamples\" />
+    <Folder Include="StaticResources\SiteSamples\img\" />
     <Folder Include="StaticResources\TestStatic1\" />
+    <Folder Include="StaticResources\TestStatic1\NissanStyle_Mini\" />
+    <Folder Include="StaticResources\TestStatic1\NissanStyle_Mini\img\" />
     <Folder Include="StaticResources\ZipWithOneFileInside\" />
+    <Folder Include="StaticResources\ZipWithOneFileInside\Windows\" />
     <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
